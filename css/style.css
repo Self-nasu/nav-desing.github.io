@@ -9,6 +9,7 @@
     padding: 8px;
     box-shadow: -2px 7px 18px -4px rgba(0, 0, 0, 0.329);
     z-index: 5;
+    position: relative;
 }
 .left-side-nav {
     background-color: white;
@@ -76,6 +77,7 @@ button[type="submit"]:focus {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     z-index: 4;
+    position: relative;
 }
 .subnav-img {
     height: 45px;
