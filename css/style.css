@@ -1,0 +1,93 @@
+.html {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(255, 144, 32) 0%, rgb(252, 200, 55) 72%);
+    padding: 8px;
+    box-shadow: -2px 7px 18px -4px rgba(0, 0, 0, 0.329);
+    z-index: 5;
+}
+.left-side-nav {
+    background-color: white;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: 1%;
+    border: 1px solid black;
+}
+input[type="text"] {
+    outline: none;
+    border: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 500px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+button[type="submit"] {
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    margin: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(182, 182, 255);
+}
+
+button[type="submit"]:focus {
+    outline: none;
+}
+.left-side-nav:hover {
+    box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.126);
+}
+
+/* ============================= TOGGLE SWITCH ======================================== */
+
+.main-logo {
+    height: 55px;
+}
+.toggle {
+    background: transparent;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ============================= TOGGLE SUBNAVIGATION ======================================== */
+
+.td-subnav-cont {
+    background: linear-gradient(120deg, rgb(255, 144, 32) 0%, rgb(252, 200, 55) 72%);
+    display: inline-block;
+    padding: 6px;
+    padding-left: 0px;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    z-index: 4;
+}
+.subnav-img {
+    height: 45px;
+    margin: 12px;
+}
+.subnav-down {
+    margin-top: 80px;
+    padding-top: 10px;
+    border-top: 3px solid rgba(0, 0, 0, 0.650);
+    border-right: 3px solid rgba(0, 0, 0, 0.650);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.650);
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
