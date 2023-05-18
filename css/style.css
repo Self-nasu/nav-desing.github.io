@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     background: linear-gradient(180deg, rgb(255, 144, 32) 0%, rgb(252, 200, 55) 72%);
-    padding: 8px;
+    padding: 3px;
     box-shadow: -2px 7px 18px -4px rgba(0, 0, 0, 0.329);
     z-index: 5  ;
     position: relative;
@@ -60,7 +60,7 @@ button[type="submit"]:focus {
 /* ============================= TOGGLE SWITCH ======================================== */
 
 .main-logo {
-    height: 60px;
+    height: 55px;
 }
 .toggle {
     background: transparent;
@@ -75,25 +75,77 @@ button[type="submit"]:focus {
     background: linear-gradient(120deg, rgb(255, 144, 32) 0%, rgb(252, 200, 55) 72%);
     display: inline-block;
     padding: 6px;
-    padding-left: 0px;
     border-radius: 4px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     z-index: 4;
-    position: relative;
+    position: fixed;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 70%;
 }
 .subnav-img {
-    height: 45px;
-    margin: 12px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 6px;
+}
+.subnav-img:hover {
+    background-color: lightblue;
 }
 .subnav-down {
-    margin-top: 10em;
-    padding-top: 10px;
-    border-top: 3px solid rgba(0, 0, 0, 0.650);
-    border-right: 3px solid rgba(0, 0, 0, 0.650);
-    border-bottom: 3px solid rgba(0, 0, 0, 0.650);
-    border-radius: 4px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    border-top: 4px solid rgba(0, 0, 0, 0.818);
+}
+
+/* ============================= FOOTER CSS ======================================== */
+
+.footer-cont {
+    display: flex;
+    background: linear-gradient(360deg, rgb(255, 144, 32) 0%, rgb(252, 200, 55) 72%);
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}   
+.footer-text {
+    color: black;
+    text-decoration: none;
+}
+.copyright-cont {
+    display: flex;
+    margin-left: 1em;
+}
+.fo-small-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.fo-nav-li {
+    margin-right: 15px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+.fo-nav-img {
+    height: 22px;
+    margin-right: 3px;
+    border-radius: 50%;
+}
+.fo-nav-img:hover {
+    background-color: rgb(212, 159, 255);
+}
+.smnav-ab:hover .fo-nav-img {
+    background-color: rgb(212, 159, 255);;
+}
+.smnav-con:hover .fo-nav-img {
+    background-color: rgb(212, 159, 255);;
+}
+.smnav-call:hover .fo-nav-img {
+    background-color: rgb(212, 159, 255);;
 }
