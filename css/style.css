@@ -83,7 +83,8 @@ button[type="submit"]:focus {
     position: fixed;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    height: 70%;
+    height: 60%;
+    justify-items: center;
 }
 .subnav-img {
     height: 30px;
